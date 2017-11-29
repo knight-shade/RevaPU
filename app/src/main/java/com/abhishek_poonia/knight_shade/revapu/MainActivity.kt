@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         ib_formula.setOnClickListener {
             toast("Formula")
+            startActivity( Intent(this, FormulasActivity::class.java))
         }
 
         ib_questions.setOnClickListener {

@@ -19,7 +19,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
-        <activity android:name=".PdfActivity"></activity>
+        <activity android:name=".PdfActivity" />
+        <activity android:name=".FormulasActivity" />
+        <activity android:name=".DisplayFormulasActivity"></activity>
     </application>
 
 </manifest>
